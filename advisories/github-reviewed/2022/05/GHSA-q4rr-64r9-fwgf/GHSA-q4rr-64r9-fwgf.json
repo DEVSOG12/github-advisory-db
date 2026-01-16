@@ -25,26 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0"
-            },
-            {
-              "last_affected": "1.10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "k8s.io/kubernetes"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.11.0"
+              "introduced": "0"
             },
             {
               "fixed": "1.11.8"
