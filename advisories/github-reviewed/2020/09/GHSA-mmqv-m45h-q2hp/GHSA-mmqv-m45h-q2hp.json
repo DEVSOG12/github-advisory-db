@@ -18,7 +18,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0.0.0"
+              "introduced": "0"
             },
             {
               "fixed": "15.3.0"
