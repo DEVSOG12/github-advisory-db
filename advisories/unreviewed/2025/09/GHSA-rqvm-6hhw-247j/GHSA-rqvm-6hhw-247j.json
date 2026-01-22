@@ -1,19 +1,43 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqvm-6hhw-247j",
-  "modified": "2025-09-05T03:30:20Z",
+  "modified": "2025-09-05T03:30:31Z",
   "published": "2025-09-05T03:30:20Z",
   "aliases": [
     "CVE-2025-9375"
   ],
-  "details": "XML Injection vulnerability in xmltodict allows Input Data Manipulation.This issue affects xmltodict: 0.14.2.",
+  "summary": "XML Injection vulnerability in xmltodict 0.14.2",
+  "details": "A vulnerability in xmltodict version 0.14.2 allows attackers to perform XML Injection by crafting dictionary keys that are inserted directly as XML tag names without any validation or sanitization. This enables attackers to inject arbitrary and potentially malicious XML markup into the generated output.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "xmltodict"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.14.2"
+            },
+            {
+              "fixed": "1.0.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.14.2"
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,7 +60,7 @@
       "url": "https://fluidattacks.com/advisories/mono"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/martinblech/xmltodict"
     }
   ],
