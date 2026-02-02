@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm59-rqc7-hhvf",
-  "modified": "2025-12-18T22:03:08Z",
+  "modified": "2025-12-18T22:03:09Z",
   "published": "2025-12-18T22:03:08Z",
   "aliases": [
     "CVE-2025-53000"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "7.16.6"
+              "fixed": "7.17.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 7.16.6"
+      }
     }
   ],
   "references": [
