@@ -33,6 +33,25 @@
             },
             {
               "fixed": "5.2.3"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 5.2.3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "bn.js"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
             },
             {
               "fixed": "4.12.3"
@@ -68,6 +87,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/indutny/bn.js/commit/67ecb35dabaf252001b649c12d69c4b57deac6f6"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/Kr0emer/02370d18328c28b5dd7f9ac880d22a91"
     },
     {
@@ -77,6 +100,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/indutny/bn.js/releases/tag/v5.2.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/indutny/bn.js/releases/tag/v4.12.3"
     },
     {
       "type": "WEB",
