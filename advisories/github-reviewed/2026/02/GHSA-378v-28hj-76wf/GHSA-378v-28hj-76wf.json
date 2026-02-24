@@ -60,7 +60,7 @@
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "< 5.2.3"
+        "last_known_affected_version_range": "< 4.12.3"
       }
     }
   ],
