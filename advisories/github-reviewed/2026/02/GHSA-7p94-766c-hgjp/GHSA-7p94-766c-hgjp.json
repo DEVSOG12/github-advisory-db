@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p94-766c-hgjp",
-  "modified": "2026-02-19T20:27:43Z",
+  "modified": "2026-02-25T12:25:43Z",
   "published": "2026-02-18T18:30:40Z",
   "aliases": [
     "CVE-2025-14009"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "3.9.2"
+              "fixed": "3.9.3"
             }
           ]
         }
