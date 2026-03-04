@@ -1,19 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g4f-4pwh-qvx6",
-  "modified": "2026-03-02T21:58:39Z",
+  "modified": "2026-03-02T21:58:41Z",
   "published": "2026-02-11T21:30:39Z",
   "aliases": [
     "CVE-2025-69873"
   ],
   "summary": "ajv has ReDoS when using `$data` option",
   "details": "ajv (Another JSON Schema Validator) through version 8.17.1 is vulnerable to Regular Expression Denial of Service (ReDoS) when the `$data` option is enabled. The pattern keyword accepts runtime data via JSON Pointer syntax (`$data` reference), which is passed directly to the JavaScript `RegExp()` constructor without validation. An attacker can inject a malicious regex pattern (e.g., `\\\"^(a|a)*$\\\"`) combined with crafted input to cause catastrophic backtracking. A 31-character payload causes approximately 44 seconds of CPU blocking, with each additional character doubling execution time. This enables complete denial of service with a single HTTP request against any API using ajv with `$data`: true for dynamic schema validation.",
-  "severity": [
-    {
-      "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P"
-    }
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -105,7 +100,7 @@
       "CWE-1333",
       "CWE-400"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-17T16:38:57Z",
     "nvd_published_at": "2026-02-11T19:15:50Z"
