@@ -61,6 +61,15 @@
       "url": "https://mariopepe.github.io/cve-2026-26801-pdfmake-ssrf"
     }
   ],
+  "credits": [
+    {
+      "name": "Mario Pepe",
+      "contact": [
+        "https://github.com/mariopepe"
+      ],
+      "type": "FINDER"
+    }
+  ],
   "database_specific": {
     "cwe_ids": [
       "CWE-918"
