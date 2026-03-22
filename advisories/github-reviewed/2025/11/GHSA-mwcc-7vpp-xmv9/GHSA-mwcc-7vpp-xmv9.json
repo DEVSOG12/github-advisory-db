@@ -50,6 +50,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/mongodb/mongo-c-driver/commit/775998df7c672161989bf678723a60d73bb15e01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mongodb/mongo-php-driver/commit/7bc80b71a088ed33a3f35ce772884c04937920b4"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/mongodb/mongo-c-driver/releases/tag/1.30.6"
     },
     {
