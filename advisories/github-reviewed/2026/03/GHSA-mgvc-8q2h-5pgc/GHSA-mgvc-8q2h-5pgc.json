@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgvc-8q2h-5pgc",
-  "modified": "2026-03-20T20:42:31Z",
+  "modified": "2026-03-20T20:42:32Z",
   "published": "2026-03-20T00:31:28Z",
   "aliases": [
     "CVE-2026-22733"
   ],
   "summary": "Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints",
-  "details": "Spring Boot applications with Actuator can be vulnerable to an \"Authentication Bypass\" vulnerability when an application endpoint that requires authentication is declared under the path used by the CloudFoundry Actuator endpoints. This issue affects Spring Security: from 4.0.0 through 4.0.3, from 3.5.0 through 3.5.11, from 3.4.0 through 3.4.14, from 3.3.0 through 3.3.17, from 2.7.0 through 2.7.31.",
+  "details": "Spring Boot applications with Actuator can be vulnerable to an \"Authentication Bypass\" vulnerability when an application endpoint that requires authentication is declared under the path used by the CloudFoundry Actuator endpoints. This issue affects Spring Security: from 4.0.0 through 4.0.3, from 3.5.0 through 3.5.11, from 3.4.0 through 3.4.14, from 3.3.0 through 3.3.17, from 2.7.0 through 2.7.31.\n\nMore precisely, an application can be vulnerable when all the following are true:\n\n- the application is a web application\n- the application has the Actuator dependency on the classpath\n- the application has the Spring Security dependency on the classpath\n- the application contributes an application endpoint that requires authentication under a subpath, like \"/cloudfoundryapplication/admin\"\n\nNote that mapping application endpoints under infrastructure endpoints like Actuators is not recommended by the Spring team and that doing so is likely to interfere with other configurations and cause behavior problems. While the severity for this advisory is high, we expect this setup to rarely occur in production.\n\nThis CVE is similar but not equivalent to CVE-2026-22731, as the conditions for exploit and vulnerable versions are different.\n\n## Mitigation\nUsers of affected versions should upgrade to the corresponding fixed version.",
   "severity": [
     {
       "type": "CVSS_V3",
