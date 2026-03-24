@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w8x-224x-785m",
-  "modified": "2026-03-18T16:10:06Z",
+  "modified": "2026-03-24T11:58:40Z",
   "published": "2026-03-17T06:31:32Z",
   "aliases": [
     "CVE-2026-4258"
@@ -32,11 +32,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.0.8"
+              "fixed": "1.0.9"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.0.8"
+      }
     }
   ],
   "references": [
@@ -63,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-SJCL-15369617"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/bitwiseshiftleft/sjcl/commit/ee307459972442a17beebc29dc331fffd8aff796"
     }
   ],
   "database_specific": {
