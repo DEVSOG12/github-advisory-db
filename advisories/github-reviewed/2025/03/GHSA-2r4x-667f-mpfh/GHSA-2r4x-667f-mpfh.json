@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.seata:seata-config-core"
+        "name": "org.apache.seata:seata-server"
       },
       "ranges": [
         {
@@ -42,7 +42,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/apache/incubator-seata/commit/c0d2ac540b5579e909ae3240f112575313fcad34"
+      "url": "https://github.com/apache/incubator-seata/commit/20cd9625d23f99b71fefc83b8db96c14092a9950"
     },
     {
       "type": "PACKAGE",
