@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf5v-q897-m77r",
-  "modified": "2025-09-16T15:32:31Z",
+  "modified": "2025-09-16T15:32:32Z",
   "published": "2025-09-16T15:32:31Z",
   "aliases": [
     "CVE-2025-59436"
   ],
+  "summary": "The ip (aka node-ip) package through 2.0.1 (in NPM) might allow SSRF",
   "details": "The ip (aka node-ip) package through 2.0.1 (in NPM) might allow SSRF because the IP address value 017700000001 is improperly categorized as globally routable via isPublic. NOTE: this issue exists because of an incomplete fix for CVE-2024-29415.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "ip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,11 +42,15 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/indutny/node-ip/issues/160"
+      "url": "https://github.com/indutny/node-ip/issues/162"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/indutny/node-ip"
     },
     {
       "type": "WEB",
-      "url": "https://cosmosofcyberspace.github.io/CVE-Application-Document.html"
+      "url": "https://github.com/indutny/node-ip/blob/main/package.json"
     }
   ],
   "database_specific": {
