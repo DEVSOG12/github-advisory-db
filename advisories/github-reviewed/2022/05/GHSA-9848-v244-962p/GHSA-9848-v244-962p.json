@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9848-v244-962p",
-  "modified": "2024-04-30T08:46:50Z",
+  "modified": "2024-04-30T08:46:51Z",
   "published": "2022-05-14T02:21:24Z",
   "aliases": [
     "CVE-2012-1007"
