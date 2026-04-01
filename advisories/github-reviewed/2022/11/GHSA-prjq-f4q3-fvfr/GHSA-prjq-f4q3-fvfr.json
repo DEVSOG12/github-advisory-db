@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prjq-f4q3-fvfr",
-  "modified": "2024-05-20T19:38:33Z",
+  "modified": "2024-05-20T19:38:35Z",
   "published": "2022-11-15T19:05:07Z",
   "aliases": [
     "CVE-2020-7731"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/russellhaering/gosaml2/security/advisories/GHSA-prjq-f4q3-fvfr"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7731"
     },
     {
       "type": "WEB",
