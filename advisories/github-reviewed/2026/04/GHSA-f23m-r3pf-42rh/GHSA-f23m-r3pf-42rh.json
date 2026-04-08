@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f23m-r3pf-42rh",
-  "modified": "2026-04-01T23:50:27Z",
+  "modified": "2026-04-01T23:50:28Z",
   "published": "2026-04-01T23:50:27Z",
   "aliases": [
     "CVE-2026-2950"
@@ -10,14 +10,14 @@
   "details": "### Impact\n\nLodash versions 4.17.23 and earlier are vulnerable to prototype pollution in the `_.unset` and `_.omit` functions. The fix for [CVE-2025-13465](https://github.com/lodash/lodash/security/advisories/GHSA-xxjr-mmjv-4gpg) only guards against string key members, so an attacker can bypass the check by passing array-wrapped path segments. This allows deletion of properties from built-in prototypes such as `Object.prototype`, `Number.prototype`, and `String.prototype`.\n\nThe issue permits deletion of prototype properties but does not allow overwriting their original behavior.\n\n### Patches\n\nThis issue is patched in 4.18.0.\n\n### Workarounds\n\nNone. Upgrade to the patched version.",
   "severity": [
     {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:L/SA:N"
     }
   ],
   "affected": [
     {
       "package": {
-        "ecosystem": "npm",
+        "ecosystem": "Packagist",
         "name": "lodash"
       },
       "ranges": [
@@ -39,7 +39,7 @@
     },
     {
       "package": {
-        "ecosystem": "npm",
+        "ecosystem": "RubyGems",
         "name": "lodash-es"
       },
       "ranges": [
@@ -61,7 +61,7 @@
     },
     {
       "package": {
-        "ecosystem": "npm",
+        "ecosystem": "Hex",
         "name": "lodash-amd"
       },
       "ranges": [
