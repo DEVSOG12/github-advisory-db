@@ -83,13 +83,13 @@
           "events": [
             {
               "introduced": "7.4.5"
+            },
+            {
+              "last_affected": "7.4.6"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 8.0-milestone-1"
-      }
+      ]
     }
   ],
   "references": [
