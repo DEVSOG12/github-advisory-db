@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote"
       },
       "ranges": [
         {
@@ -41,7 +41,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote"
       },
       "ranges": [
         {
@@ -60,7 +60,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote"
       },
       "ranges": [
         {
@@ -203,6 +203,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/1nl9zqft0ksqlhlkd3j4obyjz1ghoyn7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2026-32990"
     }
   ],
   "database_specific": {
