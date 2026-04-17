@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-355h-qmc2-wpwf",
-  "modified": "2026-04-14T23:40:31Z",
+  "modified": "2026-04-14T23:40:32Z",
   "published": "2026-04-14T23:40:31Z",
   "aliases": [
     "CVE-2026-2332"
@@ -116,14 +116,11 @@
               "introduced": "9.4.0"
             },
             {
-              "fixed": "9.4.60"
+              "last_affected": "9.4.59"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 9.4.59"
-      }
+      ]
     }
   ],
   "references": [
