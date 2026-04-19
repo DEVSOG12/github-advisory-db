@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8623-9fwr-4cxv",
-  "modified": "2026-01-28T15:52:10Z",
+  "modified": "2026-01-28T15:52:11Z",
   "published": "2026-01-27T09:30:30Z",
   "aliases": [
     "CVE-2026-24806"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N/S:N/AU:Y/R:U/V:C/RE:M/U:Amber"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -54,10 +54,8 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-      "CWE-94"
-    ],
-    "severity": "MODERATE",
+    "cwe_ids": [],
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-28T15:52:10Z",
     "nvd_published_at": "2026-01-27T09:15:50Z"
