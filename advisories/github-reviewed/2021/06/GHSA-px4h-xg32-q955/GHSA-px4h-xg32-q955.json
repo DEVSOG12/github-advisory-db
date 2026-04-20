@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px4h-xg32-q955",
-  "modified": "2021-10-27T17:04:15Z",
+  "modified": "2023-11-29T22:10:49Z",
   "published": "2021-06-08T23:11:43Z",
   "aliases": [
     "CVE-2021-33502"
@@ -15,25 +15,6 @@
     }
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "npm",
-        "name": "normalize-url"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.0"
-            },
-            {
-              "fixed": "4.5.1"
-            }
-          ]
-        }
-      ]
-    },
     {
       "package": {
         "ecosystem": "npm",
@@ -67,6 +48,25 @@
             },
             {
               "fixed": "6.0.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "normalize-url"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.4.1"
+            },
+            {
+              "fixed": "4.5.1"
             }
           ]
         }
