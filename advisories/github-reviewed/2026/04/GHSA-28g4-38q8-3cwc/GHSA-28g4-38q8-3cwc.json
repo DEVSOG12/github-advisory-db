@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28g4-38q8-3cwc",
-  "modified": "2026-04-16T21:54:26Z",
+  "modified": "2026-04-16T21:54:28Z",
   "published": "2026-04-16T21:54:26Z",
   "aliases": [],
   "summary": "Flowise: Cypher Injection in GraphCypherQAChain",
@@ -9,7 +9,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/SC:N/VI:H/SI:N/VA:H/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
