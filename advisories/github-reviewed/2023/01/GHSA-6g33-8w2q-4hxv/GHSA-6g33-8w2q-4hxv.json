@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g33-8w2q-4hxv",
-  "modified": "2023-01-11T23:01:14Z",
+  "modified": "2023-01-27T05:04:09Z",
   "published": "2023-01-05T12:30:27Z",
   "aliases": [
     "CVE-2021-4305"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.0.2"
+              "fixed": "1.0.0"
             }
           ]
         }
