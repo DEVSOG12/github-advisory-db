@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmmh-p597-ppvv",
-  "modified": "2024-02-26T21:31:36Z",
+  "modified": "2024-08-01T15:32:35Z",
   "published": "2024-02-26T21:31:36Z",
   "aliases": [
     "CVE-2024-1899"
   ],
+  "summary": "Suggest PURL for CVE-2024-1899",
   "details": "An issue in the anchors subparser of Showdownjs versions <= 2.1.0 could allow a remote attacker to cause denial of service conditions.\n",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "showdown"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.1.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1899"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/showdownjs/showdown"
     },
     {
       "type": "WEB",
