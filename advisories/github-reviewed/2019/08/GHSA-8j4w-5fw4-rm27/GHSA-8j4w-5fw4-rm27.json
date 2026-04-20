@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j4w-5fw4-rm27",
-  "modified": "2021-08-17T22:18:25Z",
+  "modified": "2023-01-09T05:01:55Z",
   "published": "2019-08-27T17:45:33Z",
   "aliases": [
     "CVE-2019-10750"
   ],
   "summary": "Prototype Pollution in deeply",
-  "details": "Versions of `deeply` prior to 1.0.1 are vulnerable to Prototype Pollution. The package fails to validate which Object properties it updates. This allows attackers to modify the prototype of Object, causing the addition or modification of an existing property on all objects.\n\n\n\n\n## Recommendation\n\nUpgrade to version 3.1.0 or later.",
+  "details": "Versions of `deeply` prior to 3.1.0 are vulnerable to Prototype Pollution. The package fails to validate which Object properties it updates. This allows attackers to modify the prototype of Object, causing the addition or modification of an existing property on all objects.\n\n\n\n\n## Recommendation\n\nUpgrade to version 3.1.0 or later.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.1.0"
             },
             {
               "fixed": "3.1.0"
