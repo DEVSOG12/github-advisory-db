@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwv9-gp5h-frr4",
-  "modified": "2026-03-12T16:38:15Z",
+  "modified": "2026-03-12T19:41:57Z",
   "published": "2026-03-12T16:38:15Z",
   "aliases": [],
   "summary": "Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
@@ -9,7 +9,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -23,7 +23,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.0.0"
             },
             {
               "fixed": "5.6.4"
@@ -54,7 +54,7 @@
     "cwe_ids": [
       "CWE-1321"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-12T16:38:15Z",
     "nvd_published_at": null
