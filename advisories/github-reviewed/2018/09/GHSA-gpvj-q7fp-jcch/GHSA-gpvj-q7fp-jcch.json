@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpvj-q7fp-jcch",
-  "modified": "2023-09-12T20:49:06Z",
+  "modified": "2023-09-12T20:49:07Z",
   "published": "2018-09-06T03:22:59Z",
   "aliases": [
     "CVE-2018-3787"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.2.1"
+              "fixed": "0.2.0"
             }
           ]
         }
