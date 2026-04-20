@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28xh-wpgr-7fm8",
-  "modified": "2020-08-31T18:31:51Z",
+  "modified": "2023-01-09T05:01:44Z",
   "published": "2019-06-20T15:35:49Z",
   "aliases": [],
   "summary": "Command Injection in open",
@@ -18,7 +18,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.0.2"
             },
             {
               "fixed": "6.0.0"
