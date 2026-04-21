@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfr9-2p92-qrhq",
-  "modified": "2024-10-09T14:34:24Z",
+  "modified": "2026-04-21T00:00:00Z",
   "published": "2024-10-09T14:34:24Z",
   "aliases": [],
   "summary": "Databento Binary Encoding (DBN) has a heap buffer overflow using c_chars_to_str function",
@@ -30,7 +30,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.22.0"
+              "fixed": "0.22.1"
             }
           ]
         }
